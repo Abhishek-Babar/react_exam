@@ -1,0 +1,6 @@
+.width {
+    width: 50%;
+}
+.width input {
+    width: 100% !important;
+}

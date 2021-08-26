@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+article:hover {
+    transform: scale(1.04);
+}
+h1 {
+    margin-bottom: 40px;
+}
+article {
+    width: 500px;
+    height: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+}
+.login {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+input {
+    width: 40% !important;
+    margin-bottom: 20px;
+}
+#close {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
